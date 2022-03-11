@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+*{
+    font-family: MedievalSharp;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    font-weight: bolder;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(higlander.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fristletter{
+    font-size: 80px;
+    font-weight: bolder;
+    color: #ff3131;
+}
+#box{
+    margin: 100px auto;
+    height: 965px;
+    width: 590px;
+    background-image: url(papiro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#inner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 100px;
+    margin: 0 auto;
+    height: 1050px;
+    width: 450px
+}
+#pigeon, #logo, #fone{
+    height: 120px;
+    width: 120px;
+    background-size: contain;
+    background-image: url(pigeon.png);
+    background-repeat: no-repeat;
+}
+#logo{
+    background-image: url(linkedin.png);
+}
+#fone{
+    background-image: url(fone.png);
+}
+#pigeon:hover, #logo:hover, #fone:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#simbulinhos{
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+    #simbulinhos div{
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+#reminder{
+    text-align:end;
+    width: 450px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+#greeting{
+    width: 450px;
+    text-align:initial;
+    margin-top: 150px;
+}
+#links{
+    font-size: 30px;
+    color: #ff3131;
+    margin-top: 100px;
+}
