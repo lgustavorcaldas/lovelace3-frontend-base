@@ -41,6 +41,9 @@ h1{
                     font-weight: bolder;
                     color: #ff3131;
                 }
+            #aboutMe{
+                margin-top: 50px;
+            }
             #simbulinhos{
                 margin-top: 50px;
                 width: 500px;
@@ -73,14 +76,15 @@ h1{
                     transform: scale(1.2);
                     transition: 0.5s;
                 }
+                #links{
+                    font-size: 30px;
+                    color: #ff3131;
+                    margin-top: 100px;
+                }
             #reminder{
+                margin-top: 25px;
                 text-align:end;
                 width: 450px;
                 font-size: 12px;
                 font-weight: lighter;
-            }
-            #links{
-                font-size: 30px;
-                color: #ff3131;
-                margin-top: 100px;
             }
